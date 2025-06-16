@@ -34,17 +34,17 @@ body{
     color: #000000;
 }
 #home{
-    color: #d46304;
+    color: #D46304;
 }
 #background-image {
-    position: fixed;
+    position: absolute;
     top: 200px;
-    height: 380vh;
+    height: 60vh;
     opacity: 0.7;
 }
 .recycle-clothes{
     position: absolute;
-    color: #ffffff;
+    color: #FFFFFF;
     top: 360px;
     left: 300px;
     font-size: xxx-large;
@@ -53,12 +53,12 @@ body{
     position: absolute;
     top: 550px;
     left: 500px;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: x-large;
 }
 .button{
     background-color: #942222;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: larger;
     position: absolute;
     width: 30vw;
@@ -71,7 +71,7 @@ body{
     display: flex;
     position: absolute;
     top: 730px;
-    color: #faf9f9;
+    color: #FAF9F9;
     padding-left: 40px;
     gap: 10px;
     font-size: larger;
@@ -84,14 +84,14 @@ body{
     top: 900px;
     width: 98vw;
     height: 60vh;
-    background-color: #d46304;
+    background-color: #D46304;
 }
 .info{
     display: flex;
     gap: 200px;
     padding-left: 700px;
     height: 30vh;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 .info1{
     margin-top: 30px;
@@ -107,5 +107,26 @@ body{
 .copyright{
     text-align: center;
     margin-top: 200px;
-    color: #ffffff;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    padding: 5% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links a{
+color:black;
+text-decoration: none;
+font-size: 16px;
 }
